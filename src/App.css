@@ -2,15 +2,18 @@
     display: grid;
     place-items: center;
     height: 100vh;
-    background-color: #d1d7da;
+    /* background-color: #d1d7da ; */
+    background: linear-gradient(360deg, #d1d7da 75%, #00a783 20%);
+    /* background-color: green 25%; */
 }
 
 .app_body{
     display: flex;
     background-color: #f0f2f5;
     /* flex-direction: column; */
-    height: 90vh;
-    width: 90vw;
+    height: 95vh;
+    width: 97vw;
     margin-top: -50px;
+    margin-bottom: -50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
