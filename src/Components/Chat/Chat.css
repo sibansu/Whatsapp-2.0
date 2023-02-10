@@ -1,5 +1,93 @@
 .Chat{
     display: flex;
     flex-direction: column;
-    flex-direction: 0.65;
+    flex: 0.65;
+}
+.chat_header{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.chat_header_info{
+    flex: 1;
+    padding-left: 15px;
+    /* margin-right: auto; */
+}
+.chat_header_info>h3{
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.chat_header_info>p{
+    /* font-weight: 500; */
+    /* margin-bottom: 2px; */
+    color: gray;
+}
+.chat_body{
+    flex: 1;
+    background-image: url("C:\WHATSAPP 2.0\whatsapp-2.0\src\Images\wpbg.png") ;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+.chat_message{
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.chat_time{
+    font-size: xx-small;
+    margin-left: 10px;
+}
+.chat_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+.chat_receiver{
+    margin-left: auto;
+    background: #d9fdd3;
+}
+
+.chat_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chat_bottom>form{
+    flex: 1;
+    display: flex;
+}
+.chat_bottom>form>input{
+    /* flex: 1;
+    display: flex; */
+    /* display: none; */
+    border: none;
+    padding: 10px;
+    flex: 1;
+    border-radius: 30px;
+    outline: none;
+    
+
+}
+.chat_bottom>form>button{
+    /* flex: 1;
+    display: flex; */
+    display: none;
+}
+.chat_bottom>.MuiSvgIcon-root{
+    /* flex: 1;
+    display: flex; */
+    /* display: none; */
+    padding: 15px;
+    color: gray;
 }
